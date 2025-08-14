@@ -9,9 +9,11 @@
         </div>
       </div>
     </div>
-    <section>
-      <h1>About Page</h1>
-      <p>This is the about page content.</p>
-    </section>
+    <div class="px-10 py-9">
+      <section>
+        <h1>About Page</h1>
+        <p>This is the about page content.</p>
+      </section>
+    </div>
   </div>
 </template>
