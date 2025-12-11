@@ -1,23 +1,14 @@
 <template>
-  <div class="min-h-screen flex flex-col md:flex-row">
+  <div class="min-h-screen bg-deep-sea text-text-gray font-mono overflow-x-hidden relative">
     
-
-    <div class="flex-grow flex flex-col md:flex-row">
-      <div class="w-full md:w-1/6 p-6 shadow md:sticky md:top-0 md:h-screen">
-        <Header />
-      </div>
-
-      <div class="w-full md:w-5/6 flex flex-col flex-grow">
-        <main class="flex-grow">
-          <NuxtPage />
-        </main>
-        <Footer />
-      </div>
+    <div class="fixed inset-0 z-0 opacity-10 pointer-events-none"
+         style="background-image: linear-gradient(#1e293b 1px, transparent 1px), linear-gradient(to right, #1e293b 1px, transparent 1px); background-size: 40px 40px;">
     </div>
+
+    <div class="relative z-10">
+       <Header /> <slot />
+    </div>
+
+    <Footer /> 
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
-
