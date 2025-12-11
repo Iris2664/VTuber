@@ -42,14 +42,14 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://vtuber.iris2664.com/' },
         { property: 'og:title', content: '猫海あやめ | 情報科学系プログラマー 公式サイト' },
         { property: 'og:description', content: '情報科学に精通した猫、猫海あやめの公式サイト。TypeScript/Rust/セキュリティ/CTFなどの技術活動情報を発信します。' },
-        { property: 'og:image', content: '/ogp_image.png' },
+        { property: 'og:image', content: 'https://vtuber.iris2664.com/ogp_image.png' },
         { property: 'og:locale', content: 'ja_JP' },
 
         // 🐦 Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:site', content: '@Iris2664' },
         { name: 'twitter:creator', content: '@Iris2664' },
-        { name: 'twitter:image', content: '/ogp_image.png' },
+        { name: 'twitter:image', content: 'https://vtuber.iris2664.com/ogp_image.png' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
