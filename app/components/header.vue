@@ -33,6 +33,7 @@
             <NuxtLink to="/profile" class="hover:text-gray-400">Profile</NuxtLink>
             <NuxtLink to="/news" class="hover:text-gray-400">News</NuxtLink>
             <NuxtLink to="/guidelines" class="hover:text-gray-400">Guidelines</NuxtLink>
+            <NuxtLink to="/privacy-policy" class="hover:text-gray-400">Privacy Policy</NuxtLink>
             <NuxtLink to="/contact" class="hover:text-gray-400">Contact</NuxtLink>
         </nav>
     </header>
